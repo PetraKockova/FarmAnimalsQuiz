@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Animals on the Farm</string>
+    <string name="play_sound">Play Sound</string>
+    <string name="basic_question">Which animal is in the picture?</string>
+    <string name="finish_quiz">Finish Quiz</string>
+
+    <string name="cow">Cow</string>
+    <string name="dog">Dog</string>
+    <string name="cat">Cat</string>
+    <string name="chicken">Chicken</string>
+    <string name="pig">Pig</string>
+    <string name="duck">Duck</string>
+    <string name="goat">Goat</string>
+    <string name="horse">Horse</string>
+    <string name="sheep">Sheep</string>
+    <string name="rooster">Rooster</string>
+    <string name="image_sound_click">Click on image to play sound.</string>
+    <string name="elephant">Elephant</string>
+    <string name="snake">Snake</string>
+    <string name="monkey">Monkey</string>
+    <string name="mouse">Mouse</string>
+    <string name="donkey">Donkey</string>
+    <string name="error_missing_answer">You haven\'t selected all answers.</string>
+    <string name="finish_message">You have answered correctly %1$d/10.</string>
+
+</resources>

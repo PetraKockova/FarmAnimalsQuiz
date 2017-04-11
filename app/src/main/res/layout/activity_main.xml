@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
+    tools:context="cz.cattie.farmanimalsquiz.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/margin_16">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:text="@string/basic_question" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="@string/image_sound_click" />
+
+        <!-- ######################################### -->
+        <!-- Question 1 -->
+        <LinearLayout
+            style="@style/AppTheme.QuestionHolder">
+
+            <!-- Image and sound button -->
+            <ImageButton
+                style="@style/AppTheme.ImageButton"
+                android:id="@+id/animal1Image"
+                android:src="@drawable/ic_sheep"/>
+
+            <RadioGroup
+                style="@style/AppTheme.RadioGroup"
+                android:id="@+id/animal1Group"
+                android:tag="1">
+
+                <!-- Answer 1 -->
+                <RadioButton
+                    style="@style/AppTheme.RadioButton"
+                    android:text="@string/cow" />
+
+                <!-- Answer 2 -->
+                <RadioButton
+                    style="@style/AppTheme.RadioButton"
+                    android:text="@string/sheep" />
+
+                <!-- Answer 3 -->
+                <RadioButton
+                    style="@style/AppTheme.RadioButton"
+                    android:text="@string/cat" />
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <View style="@style/AppTheme.Divider" />
+
+        <!-- ######################################### -->
+        <!-- Question 2 -->
+        <LinearLayout
+            style="@style/AppTheme.QuestionHolder">
+
+            <ImageButton
+                style="@style/AppTheme.ImageButton"
+                android:id="@+id/animal2Image"
+                android:src="@drawable/ic_chicken"/>
+
+            <RadioGroup
+                style="@style/AppTheme.RadioGroup"
+                android:id="@+id/animal2Group"
+                android:tag="2">
+
+                <!-- Answer 1 -->
+                <RadioButton
+                    style="@style/AppTheme.RadioButton"
+                    android:text="@string/goat" />
+
+                <!-- Answer 2 -->
+                <RadioButton
+                    style="@style/AppTheme.RadioButton"
+                    android:text="@string/rooster" />
+
+                <!-- Answer 3 -->
+                <RadioButton
+                    style="@style/AppTheme.RadioButton"
+                    android:text="@string/chicken" />
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <View style="@style/AppTheme.Divider" />
+
+        <!-- ######################################### -->
+        <!-- Question 3 -->
+        <LinearLayout
+            style="@style/AppTheme.QuestionHolder">
+
+            <ImageButton
+                style="@style/AppTheme.ImageButton"
+                android:id="@+id/animal3Image"
+                android:src="@drawable/ic_duck"/>
+
+            <RadioGroup
+                style="@style/AppTheme.RadioGroup"
+                android:id="@+id/animal3Group"
+                android:tag="0">
+
+                <!-- Answer 1 -->
+                <RadioButton
+                    style="@style/AppTheme.RadioButton"
+                    android:text="@string/duck" />
+
+                <!-- Answer 2 -->
+                <RadioButton
+                    style="@style/AppTheme.RadioButton"
+                    android:text="@string/elephant" />
+
+                <!-- Answer 3 -->
+                <RadioButton
+                    style="@style/AppTheme.RadioButton"
+                    android:text="@string/dog" />
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <View style="@style/AppTheme.Divider" />
+
+        <!-- ######################################### -->
+        <!-- Question 4 -->
+        <LinearLayout
+            style="@style/AppTheme.QuestionHolder">
+
+            <ImageButton
+                style="@style/AppTheme.ImageButton"
+                android:id="@+id/animal4Image"
+                android:src="@drawable/ic_rooster"/>
+
+            <RadioGroup
+                style="@style/AppTheme.RadioGroup"
+                android:id="@+id/animal4Group"
+                android:tag="2">
+
+                <!-- Answer 1 -->
+                <RadioButton
+                    style="@style/AppTheme.RadioButton"
+                    android:text="@string/snake" />
+
+                <!-- Answer 2 -->
+                <RadioButton
+                    style="@style/AppTheme.RadioButton"
+                    android:text="@string/cow" />
+
+                <!-- Answer 3 -->
+                <RadioButton
+                    style="@style/AppTheme.RadioButton"
+                    android:text="@string/rooster" />
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <View style="@style/AppTheme.Divider"/>
+
+        <!-- ######################################### -->
+        <!-- Question 5 -->
+        <LinearLayout
+            style="@style/AppTheme.QuestionHolder">
+
+            <ImageButton
+                style="@style/AppTheme.ImageButton"
+                android:id="@+id/animal5Image"
+                android:src="@drawable/ic_pig"/>
+
+            <RadioGroup
+                style="@style/AppTheme.RadioGroup"
+                android:id="@+id/animal5Group"
+                android:tag="0">
+
+                <!-- Answer 1 -->
+                <RadioButton
+                    style="@style/AppTheme.RadioButton"
+                    android:text="@string/pig" />
+
+                <!-- Answer 2 -->
+                <RadioButton
+                    style="@style/AppTheme.RadioButton"
+                    android:text="@string/cow" />
+
+                <!-- Answer 3 -->
+                <RadioButton
+                    style="@style/AppTheme.RadioButton"
+                    android:text="@string/monkey" />
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <View style="@style/AppTheme.Divider" />
+        <!-- ######################################### -->
+        <!-- Question 6 -->
+        <LinearLayout
+            style="@style/AppTheme.QuestionHolder">
+
+            <ImageButton
+                style="@style/AppTheme.ImageButton"
+                android:id="@+id/animal6Image"
+                android:src="@drawable/ic_cat"/>
+
+            <RadioGroup
+                style="@style/AppTheme.RadioGroup"
+                android:id="@+id/animal6Group"
+                android:tag="1">
+
+                <!-- Answer 1 -->
+                <RadioButton
+                    style="@style/AppTheme.RadioButton"
+                    android:text="@string/dog" />
+
+                <!-- Answer 2 -->
+                <RadioButton
+                    style="@style/AppTheme.RadioButton"
+                    android:text="@string/cat" />
+
+                <!-- Answer 3 -->
+                <RadioButton
+                    style="@style/AppTheme.RadioButton"
+                    android:text="@string/mouse" />
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <View style="@style/AppTheme.Divider" />
+        <!-- ######################################### -->
+        <!-- Question 7 -->
+        <LinearLayout
+            style="@style/AppTheme.QuestionHolder">
+
+            <ImageButton
+                style="@style/AppTheme.ImageButton"
+                android:id="@+id/animal7Image"
+                android:src="@drawable/ic_dog"/>
+
+            <RadioGroup
+                style="@style/AppTheme.RadioGroup"
+                android:id="@+id/animal7Group"
+                android:tag="1">
+
+                <!-- Answer 1 -->
+                <RadioButton
+                    style="@style/AppTheme.RadioButton"
+                    android:text="@string/snake" />
+
+                <!-- Answer 2 -->
+                <RadioButton
+                    style="@style/AppTheme.RadioButton"
+                    android:text="@string/dog" />
+
+                <!-- Answer 3 -->
+                <RadioButton
+                    style="@style/AppTheme.RadioButton"
+                    android:text="@string/goat" />
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <View style="@style/AppTheme.Divider" />
+
+        <!-- ######################################### -->
+        <!-- Question 8 -->
+        <LinearLayout
+            style="@style/AppTheme.QuestionHolder">
+
+            <ImageButton
+                style="@style/AppTheme.ImageButton"
+                android:id="@+id/animal8Image"
+                android:src="@drawable/ic_cow"/>
+
+            <RadioGroup
+                style="@style/AppTheme.RadioGroup"
+                android:id="@+id/animal8Group"
+                android:tag="0">
+
+                <!-- Answer 1 -->
+                <RadioButton
+                    style="@style/AppTheme.RadioButton"
+                    android:text="@string/cow" />
+
+                <!-- Answer 2 -->
+                <RadioButton
+                    style="@style/AppTheme.RadioButton"
+                    android:text="@string/horse" />
+
+                <!-- Answer 3 -->
+                <RadioButton
+                    style="@style/AppTheme.RadioButton"
+                    android:text="@string/mouse" />
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <View style="@style/AppTheme.Divider" />
+
+        <!-- ######################################### -->
+        <!-- Question 9 -->
+        <LinearLayout
+            style="@style/AppTheme.QuestionHolder">
+
+            <ImageButton
+                style="@style/AppTheme.ImageButton"
+                android:id="@+id/animal9Image"
+                android:src="@drawable/ic_goat"/>
+
+            <RadioGroup
+                style="@style/AppTheme.RadioGroup"
+                android:id="@+id/animal9Group"
+                android:tag="2">
+
+                <!-- Answer 1 -->
+                <RadioButton
+                    style="@style/AppTheme.RadioButton"
+                    android:text="@string/monkey" />
+
+                <!-- Answer 2 -->
+                <RadioButton
+                    style="@style/AppTheme.RadioButton"
+                    android:text="@string/snake" />
+
+                <!-- Answer 3 -->
+                <RadioButton
+                    style="@style/AppTheme.RadioButton"
+                    android:text="@string/goat" />
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <View style="@style/AppTheme.Divider" />
+
+        <!-- ######################################### -->
+        <!-- Question 10 -->
+        <LinearLayout
+            style="@style/AppTheme.QuestionHolder">
+
+            <ImageButton
+                style="@style/AppTheme.ImageButton"
+                android:id="@+id/animal10Image"
+                android:src="@drawable/ic_horse" />
+
+            <RadioGroup
+                style="@style/AppTheme.RadioGroup"
+                android:id="@+id/animal10Group"
+                android:tag="0">
+
+                <!-- Answer 1 -->
+                <RadioButton
+                    style="@style/AppTheme.RadioButton"
+                    android:text="@string/horse" />
+
+                <!-- Answer 2 -->
+                <RadioButton
+                    style="@style/AppTheme.RadioButton"
+                    android:text="@string/cow" />
+
+                <!-- Answer 3 -->
+                <RadioButton
+                    style="@style/AppTheme.RadioButton"
+                    android:text="@string/donkey" />
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <View style="@style/AppTheme.Divider" />
+
+        <!-- ANSWER BUTTON -->
+        <Button
+            android:onClick="finishClick"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_16"
+            android:text="@string/finish_quiz" />
+
+    </LinearLayout>
+</ScrollView>
