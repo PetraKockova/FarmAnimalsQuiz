@@ -1,9 +1,7 @@
 <resources>
     <string name="app_name">Animals on the Farm</string>
-    <string name="play_sound">Play Sound</string>
     <string name="basic_question">Which animal is in the picture?</string>
     <string name="finish_quiz">Finish Quiz</string>
-
     <string name="cow">Cow</string>
     <string name="dog">Dog</string>
     <string name="cat">Cat</string>
@@ -22,5 +20,5 @@
     <string name="donkey">Donkey</string>
     <string name="error_missing_answer">You haven\'t selected all answers.</string>
     <string name="finish_message">You have answered correctly %1$d/10.</string>
-
+    <string name="images_attribution">Images from http://www.freepik.com</string>
 </resources>

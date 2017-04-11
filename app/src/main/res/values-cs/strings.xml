@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Zvířatka na farmě</string>
+    <string name="basic_question">Jake zvířátko je na obrázku?</string>
+    <string name="finish_quiz">Vyhodnotit</string>
+    <string name="cow">Kráva</string>
+    <string name="dog">Pes</string>
+    <string name="cat">Kočka</string>
+    <string name="chicken">Slepice</string>
+    <string name="pig">Prase</string>
+    <string name="duck">Kachna</string>
+    <string name="goat">Koza</string>
+    <string name="horse">Kůň</string>
+    <string name="sheep">Ovce</string>
+    <string name="rooster">Kohout</string>
+    <string name="image_sound_click">Kliknutím na obrázek přehrajete zvuk.</string>
+    <string name="elephant">Slon</string>
+    <string name="snake">Had</string>
+    <string name="monkey">Opice</string>
+    <string name="mouse">Myš</string>
+    <string name="donkey">Osel</string>
+    <string name="error_missing_answer">You haven\'t selected all answers.</string>
+    <string name="finish_message">You have answered correctly %1$d/10.</string>
+    <string name="images_attribution">Images from http://www.freepik.com</string>
+</resources>
