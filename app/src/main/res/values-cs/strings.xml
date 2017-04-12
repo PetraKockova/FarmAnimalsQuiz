@@ -18,7 +18,19 @@
     <string name="monkey">Opice</string>
     <string name="mouse">Myš</string>
     <string name="donkey">Osel</string>
-    <string name="error_missing_answer">You haven\'t selected all answers.</string>
-    <string name="finish_message">You have answered correctly %1$d/10.</string>
-    <string name="images_attribution">Images from http://www.freepik.com</string>
+    <string name="error_missing_answer">Nevybrali jste všechny odpovědi!</string>
+    <string name="finish_message">Dobrá práce %1$s!\nOdpověděl jsi správně %2$d/13.</string>
+    <string name="images_attribution">Obrázky z http://www.freepik.com</string>
+    <string name="enter_your_name">Tvoje jméno</string>
+    <string name="what_is_your_name">Jak se jmenuješ?</string>
+    <string name="select_correct_statements">Vyber správné odpovědi</string>
+    <string name="_4_legs">4 nohy</string>
+    <string name="white">Bíla</string>
+    <string name="bark_bark">Haf haf</string>
+    <string name="eggs">Vajíčka</string>
+    <string name="meow">mňau</string>
+    <string name="_2_legs">2 nohy</string>
+    <string name="duck_duck">Kvak kvak</string>
+    <string name="error_name">Prosím zadej své jméno!</string>
+
 </resources>

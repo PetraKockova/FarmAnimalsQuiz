@@ -13,11 +13,18 @@
         android:padding="@dimen/margin_16">
 
         <TextView
+            style="@style/AppTheme.Title"
+            android:text="@string/what_is_your_name" />
+
+        <EditText
+            android:id="@+id/user_name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="24sp"
-            android:textColor="@android:color/black"
-            android:textStyle="bold"
+            android:hint="@string/enter_your_name"/>
+
+        <TextView
+            android:layout_marginTop="@dimen/margin_16"
+            style="@style/AppTheme.Title"
             android:text="@string/basic_question" />
 
         <TextView
@@ -384,6 +391,126 @@
         </LinearLayout>
 
         <View style="@style/AppTheme.Divider" />
+
+        <TextView
+            style="@style/AppTheme.Title"
+            android:layout_marginTop="@dimen/margin_16"
+            android:text="@string/select_correct_statements" />
+
+        <!-- correct answers 1 -->
+
+        <LinearLayout
+            style="@style/AppTheme.QuestionHolder">
+
+            <!-- Image and sound button -->
+            <ImageButton
+                style="@style/AppTheme.ImageButton"
+                android:id="@+id/animal11Image"
+                android:src="@drawable/ic_sheep"/>
+
+            <LinearLayout
+                android:id="@+id/correctAnswers1"
+                style="@style/AppTheme.RadioGroup">
+
+                <!-- Answer 1 -->
+                <CheckBox
+                    style="@style/AppTheme.RadioButton"
+                    android:tag="true"
+                    android:text="@string/_4_legs" />
+
+                <!-- Answer 2 -->
+                <CheckBox
+                    android:tag="true"
+                    style="@style/AppTheme.RadioButton"
+                    android:text="@string/white" />
+
+                <!-- Answer 3 -->
+                <CheckBox
+                    android:tag="false"
+                    style="@style/AppTheme.RadioButton"
+                    android:text="@string/bark_bark" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View style="@style/AppTheme.Divider" />
+
+        <!-- correct answers 2 -->
+
+        <LinearLayout
+            style="@style/AppTheme.QuestionHolder">
+
+            <!-- Image and sound button -->
+            <ImageButton
+                style="@style/AppTheme.ImageButton"
+                android:id="@+id/animal12Image"
+                android:src="@drawable/ic_chicken"/>
+
+            <LinearLayout
+                android:id="@+id/correctAnswers2"
+                style="@style/AppTheme.RadioGroup">
+
+                <!-- Answer 1 -->
+                <CheckBox
+                    style="@style/AppTheme.RadioButton"
+                    android:tag="true"
+                    android:text="@string/eggs" />
+
+                <!-- Answer 2 -->
+                <CheckBox
+                    android:tag="false"
+                    style="@style/AppTheme.RadioButton"
+                    android:text="@string/meow" />
+
+                <!-- Answer 3 -->
+                <CheckBox
+                    android:tag="false"
+                    style="@style/AppTheme.RadioButton"
+                    android:text="@string/_4_legs" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View style="@style/AppTheme.Divider" />
+
+        <!-- correct answers 2 -->
+
+        <LinearLayout
+            style="@style/AppTheme.QuestionHolder">
+
+            <!-- Image and sound button -->
+            <ImageButton
+                style="@style/AppTheme.ImageButton"
+                android:id="@+id/animal13Image"
+                android:src="@drawable/ic_duck"/>
+
+            <LinearLayout
+                android:id="@+id/correctAnswers3"
+                style="@style/AppTheme.RadioGroup">
+
+                <!-- Answer 1 -->
+                <CheckBox
+                    style="@style/AppTheme.RadioButton"
+                    android:tag="false"
+                    android:text="@string/goat" />
+
+                <!-- Answer 2 -->
+                <CheckBox
+                    style="@style/AppTheme.RadioButton"
+                    android:text="@string/_2_legs"
+                    android:tag="true"/>
+
+                <!-- Answer 3 -->
+                <CheckBox
+                    style="@style/AppTheme.RadioButton"
+                    android:tag="true"
+                    android:text="@string/duck_duck" />
+
+            </LinearLayout>
+
+        </LinearLayout>
 
         <TextView
             android:layout_marginTop="@dimen/margin_16"

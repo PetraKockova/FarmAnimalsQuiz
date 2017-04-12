@@ -19,6 +19,17 @@
     <string name="mouse">Mouse</string>
     <string name="donkey">Donkey</string>
     <string name="error_missing_answer">You haven\'t selected all answers.</string>
-    <string name="finish_message">You have answered correctly %1$d/10.</string>
+    <string name="finish_message">Good job %1$s!\nYou have answered correctly %2$d/13.</string>
     <string name="images_attribution">Images from http://www.freepik.com</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="what_is_your_name">What is your name?</string>
+    <string name="select_correct_statements">Select correct answers</string>
+    <string name="_4_legs">4 legs</string>
+    <string name="white">White</string>
+    <string name="bark_bark">Bark bark</string>
+    <string name="eggs">Eggs</string>
+    <string name="meow">Meow</string>
+    <string name="_2_legs">2 legs</string>
+    <string name="duck_duck">Duck duck</string>
+    <string name="error_name">Please enter your name!</string>
 </resources>
